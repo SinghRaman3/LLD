@@ -21,4 +21,8 @@ public class Driver {
     public void setRating(int rating) {
         this.rating = rating;
     }
+
+    public boolean updateAvailabilty() {
+        return availabilty = !availabilty;
+    }
 }

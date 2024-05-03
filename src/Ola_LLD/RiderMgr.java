@@ -7,8 +7,9 @@ import java.util.Map;
 
 public class RiderMgr {
     static final RiderMgr riderMgrInstance = new RiderMgr();
-    private RiderMgr(){}
     private Map<String, Rider> ridersMap = new HashMap<String, Rider>();
+
+    private RiderMgr(){}
 
     public static RiderMgr getRiderMgr(){
         return riderMgrInstance;

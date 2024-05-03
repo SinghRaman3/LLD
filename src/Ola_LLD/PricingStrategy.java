@@ -1,5 +1,5 @@
 package Ola_LLD;
 
 public interface PricingStrategy {
-    double calcPrice();
+    double calcPrice(Trip tripData);
 }

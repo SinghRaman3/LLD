@@ -7,10 +7,18 @@ public class Trip {
     boolean tripStatus;
     int tripId;
     double price;
-//    PricingStrategy pricingStrategy
-//    DriverMatchingStrategy driverMatchingStrategy;
+    PricingStrategy pricingStrategy;
+    DriverMatchingStrategy driverMatchingStrategy;
 
-    Trip(Rider rider, Driver driver, String sourceLoc, String destinationLoc, boolean tripStatus, int tripId){}
+    Trip(Rider rider, Driver driver, String sourceLoc, String destinationLoc, double price, PricingStrategy pricingStrategy, DriverMatchingStrategy driverMatchingStrategy){
+        this.rider = rider;
+        this.driver = driver;
+        this.sourceLoc = sourceLoc;
+        this.destinationLoc = destinationLoc;
+        this.price = price;
+        this.pricingStrategy = pricingStrategy;
+        this.driverMatchingStrategy = driverMatchingStrategy;
+    }
 
     public int getTripId(){return tripId;}
 

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class DriverMgr {
     static final DriverMgr driverMgrInstance = new DriverMgr();
-    private Map<String, Driver> driversMap = new HashMap<>();
+    private Map<String, Driver> driversMap = new HashMap<String, Driver>();
 
     private DriverMgr(){}
 
