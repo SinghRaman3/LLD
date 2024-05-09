@@ -14,10 +14,13 @@ The purpose of this repository is to provide a resource for software engineers p
     - Singleton Pattern
     - Factory Method Pattern
     - Abstract Factory Pattern
+    - Builder Pattern
 
 - **Structural Patterns**
     - Decorator Pattern
 
+- **Behavioral Patterns**
+    - Strategy Pattern
 
 ### 2. Low-Level Design Questions
 
