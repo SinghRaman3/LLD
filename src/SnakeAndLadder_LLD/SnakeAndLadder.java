@@ -79,10 +79,7 @@ public class SnakeAndLadder {
     }
 
     private Boolean hasPlayerWon(Player player){
-        if(board.getCurrentBoard().get(player.getName()) == board.getSize()){
-            return true;
-        }
-        return false;
+        return board.getCurrentBoard().get(player.getName()) == board.getSize();
     }
 
     private Boolean isGameComplete(){
