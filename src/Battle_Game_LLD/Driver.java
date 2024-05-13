@@ -1,4 +1,4 @@
-package Battle_Game;
+package Battle_Game_LLD;
 
 import java.util.Scanner;
 import java.util.List;

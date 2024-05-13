@@ -1,4 +1,4 @@
-package Battle_Game;
+package Battle_Game_LLD;
 
 public interface Arena {
     public void startKickoff();

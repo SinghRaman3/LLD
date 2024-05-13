@@ -1,4 +1,4 @@
-package Battle_Game;
+package Battle_Game_LLD;
 
 import java.util.*;
 
@@ -66,6 +66,6 @@ public class BattleArena implements Arena{
             }
             else players.add(attackingPlayer);
         }
-        System.out.println("Congratulations! " + players.poll() + " players has won" );
+        System.out.println("Congratulations! " + players.poll().getName() + " players has won" );
     }
 }
