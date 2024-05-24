@@ -11,12 +11,13 @@ The purpose of this repository is to provide a resource for software engineers p
 ### 1. Design Patterns
 
 - **Creational Patterns**
-    - Singleton Pattern
-    - Factory Method Pattern
     - Abstract Factory Pattern
     - Builder Pattern
+    - Factory Method Pattern
+    - Singleton Pattern
 
 - **Structural Patterns**
+    - Adaptor Pattern
     - Decorator Pattern
 
 - **Behavioral Patterns**
