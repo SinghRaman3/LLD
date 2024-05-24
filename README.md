@@ -18,7 +18,6 @@ The purpose of this repository is to provide a resource for software engineers p
 
 - **Structural Patterns**
     - Decorator Pattern
-    - Adaptor Pattern
 
 - **Behavioral Patterns**
     - Strategy Pattern
